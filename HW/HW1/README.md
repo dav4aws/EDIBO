@@ -28,13 +28,16 @@ copy = copy, default False
 Copy data from inputs. Only affects DataFrame / 2d ndarray input.
 
 **Piemers:**
+
 d = {'col1': [1, 2], 'col2': [3, 4]}
 
 
 df = pd.DataFrame(data=d)
 
 df
+
 **Kas paradas**
+
    col1  col2
    
 0     1     3
@@ -50,6 +53,7 @@ df2 = pd.DataFrame(np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]),
 df2
 
 **Kas paradas**
+
    a  b  c
    
 0  1  2  3
