@@ -1,8 +1,5 @@
-Uzdevuma apraksts:
-
+**Uzdevuma apraksts:**
 Analysis of windows event logs using pandas DataFrame
-
-
 
 **Kas ir pandas DataFrame?**
 Two-dimensional, size-mutable, potentially heterogeneous tabular data.
