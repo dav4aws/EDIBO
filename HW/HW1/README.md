@@ -1,7 +1,9 @@
 **Uzdevuma apraksts:**
+
 Analysis of windows event logs using pandas DataFrame
 
 **Kas ir pandas DataFrame?**
+
 Two-dimensional, size-mutable, potentially heterogeneous tabular data.
 
 **Formats:**
@@ -62,18 +64,27 @@ corresponding y axis values
 y = [2,4,1] 
   
 plotting the points  
+
 plt.plot(x, y) 
   
+  
 naming the x axis 
+
 plt.xlabel('x - axis') 
 
+
 naming the y axis 
+
 plt.ylabel('y - axis') 
   
+  
 giving a title to my graph 
+
 plt.title('My first graph!') 
   
+  
 function to show the plot 
+
 plt.show()
 
 [IMAGE](https://media.geeksforgeeks.org/wp-content/uploads/graph-plotting-1.png)
