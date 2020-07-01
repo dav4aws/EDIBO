@@ -106,4 +106,6 @@ function to show the plot
 
 plt.show()
 
-[IMAGE](https://media.geeksforgeeks.org/wp-content/uploads/graph-plotting-1.png)
+![analize](https://media.geeksforgeeks.org/wp-content/uploads/graph-plotting-1.png)
+
+https://media.geeksforgeeks.org/wp-content/uploads/graph-plotting-1.png
