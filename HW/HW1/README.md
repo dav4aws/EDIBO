@@ -7,9 +7,11 @@ Analysis of windows event logs using pandas DataFrame
 Two-dimensional, size-mutable, potentially heterogeneous tabular data.
 
 **Formats:**
+
 class pandas.DataFrame(data=None, index: Optional[Collection] = None, columns: Optional[Collection] = None, dtype: Optional[Union[str, numpy.dtype, ExtensionDtype]] = None, copy: bool = False)
 
 **Parametri:**
+
 data = ndarray (structured or homogeneous), Iterable, dict, or DataFrame
 Dict can contain Series, arrays, constants, or list-like objects.
 
