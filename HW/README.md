@@ -1,2 +1,1 @@
-Uzdevuma apraksts:
-Analysis of Windows Event Logs using pandas DataFrame
+Visi majasdarbi
