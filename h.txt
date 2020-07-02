@@ -1,0 +1,335 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox&^&
+    4  mkdir newdir
+    5  $mkdir newdir
+    6  pip install wheel
+    7  pip install pandas
+    8  pip install --upgrade pip
+    9  pip install pandas
+   10  firefox
+   11  firefox &
+   12  cd lib
+   13  cd root
+   14  cd home
+   15  cd site-packages
+   16  pip install pandas
+   17  firefox &
+   18  pwd
+   19  cd home/user
+   20  cd /home/user
+   21  cd documents
+   22  cd python
+   23  files &
+   24  pwd
+   25  python
+   26  ls
+   27  ls /home/sc/
+   28  \clear
+   29  pwd
+   30  ls
+   31  cd Downloads
+   32  ls
+   33  cd home
+   34  cd /
+   35  cd Documentrs
+   36  cd Documents
+   37  ls
+   38  cd home
+   39  ls
+   40  pwd
+   41  cd user
+   42  cd Documents
+   43  cd /home/
+   44  cd user
+   45  ls
+   46  cd Documents/Python
+   47  ls
+   48  cd HW1
+   49  ls
+   50  open PythonHW1.py
+   51  open PythonHW1.py 
+   52  pwd
+   53  cd /home/user
+   54  cd Desktop/
+   55  cd /home/user
+   56  cd /
+   57  cd user
+   58  cd home/user
+   59  ls
+   60  cd r
+   61  cd R
+   62  cd //
+   63  ls
+   64  cd /home/user
+   65  history 
+   66  clear
+   67  history 
+   68  ls
+   69  mkdir Test
+   70  ls
+   71  mkdirdel Testr
+   72  help
+   73  rmdir Test
+   74  ls
+   75  mkdir --help
+   76  ls
+   77  mkdir test -v test 
+   78  ls
+   79  rmdir test
+   80  cd Desktop/
+   81  ls
+   82  date
+   83  lsls
+   84  ls
+   85  mkdir abc
+   86  ls
+   87  abc date
+   88  date abc
+   89  ls l
+   90  ls
+   91  cd /
+   92  cd home/user
+   93  pwd
+   94  ls
+   95  cd Desktop
+   96  ls
+   97  ls -l
+   98  cd /home/user/
+   99  ls
+  100  hist
+  101  history 
+  102  cd Desktop/
+  103  cd
+  104  ls
+  105  /
+  106  /root
+  107  cd /etc
+  108  ls
+  109  cd /home/user/
+  110  ls | head
+  111  ls head
+  112  ls | head
+  113  cd head
+  114  cd | head
+  115  cd | root
+  116  cd | Desktop
+  117  cd | tail
+  118  ls | tail
+  119  cd /
+  120  ls
+  121  ls | 3
+  122  ls | first 3
+  123  ls | head(3)
+  124  firefox
+  125  java
+  126  clear
+  127  java -v
+  128  java -version
+  129  java
+  130  print t
+  131  clear
+  132  c
+  133  cl
+  134  clear
+  135  python
+  136  ls
+  137  wc --help
+  138  ls
+  139  ls | wc -m
+  140  ls | head -n 1 | -m
+  141  ls | head -n 1 | wc -m
+  142  ls | head -n 1 | wc -c
+  143  ls | head -n 1 | wc -l
+  144  ls | head -n 1 | wc -w
+  145  ls | head -n 1 | wc -m
+  146  clear
+  147  wc --help
+  148  ls
+  149  ls | head -n 1 | wc -c
+  150  ls | wc -c | /Documents
+  151  ls | wc -c | Documents/
+  152  wc -c | Documents/
+  153  /
+  154  cd /
+  155  ls
+  156  ls | head -n 3
+  157  ls | head -c 3
+  158  ls
+  159  ls | head -c 16
+  160  history 
+  161  ls
+  162  cd /home/root
+  163  cd /home/user
+  164  ls
+  165  ls | head list
+  166  ls | list
+  167  ls
+  168  ls | seek
+  169  ls | -n sekk
+  170  ls | -n seek
+  171  ls | -n list
+  172  ls
+  173  ls | head -n 3 | wc
+  174  ls | head -n | c
+  175  ls | head -n | wc
+  176  ls | head -n 3 | c
+  177  ls | head -n 3 | wc
+  178  ls | head -n 3 | seek
+  179  ls | head -n 3 | count
+  180  ls | tail -n 3
+  181  ls | tail -n 3 | wc
+  182  firefox &
+  183  ls | tail -n 3 | wc -l
+  184  ls | tail -n 3 | chars
+  185  ls | tail -n 3 | char
+  186  ls | tail -n 3 -c 3
+  187  ls | head
+  188  ls | head -n 3
+  189  ls | head -n 3 -c 7
+  190  ls | head -n 3 | -c 7
+  191  ls | head -c 3
+  192  ls | head -c 7
+  193  ls | -c
+  194  ls | head -c
+  195  ls | -head
+  196  ls | head -
+  197  ls | head -n 3 | wc -c
+  198  ls | wc
+  199  ls | wc -c
+  200  cd 
+  201  cd
+  202  ls
+  203  pwd
+  204  cd Documents/
+  205  ls
+  206  cd Python
+  207  cd
+  208  pwd
+  209  wc -c
+  210  history 
+  211  a = 123
+  212  a=123
+  213  dav=123
+  214  dav
+  215  $a
+  216  %a
+  217  $a
+  218  echo a
+  219  a=wc -n
+  220  a=wc -2
+  221  a=(ls)
+  222  $a
+  223  q=(ls | head n-3 | wc -c)
+  224  q=('ls | head n-3 | wc -c')
+  225  $q
+  226  q=(ls, head -n 3)
+  227  $q
+  228  q=ls
+  229  $q
+  230  q=ls
+  231  w=wc
+  232  $q $w
+  233  $q | $w
+  234  f=($q | $w)
+  235  f=$q | $w
+  236  f
+  237  l=ls
+  238  $l
+  239  h=head n-3
+  240  h=(head n-3)
+  241  $h
+  242  h=head n-3
+  243  h='head n-3'
+  244  $l | $h
+  245  ls
+  246  head
+  247  t = date
+  248  t=date
+  249  $t
+  250  d=date|echo $d
+  251  d
+  252  $d
+  253  d=date
+  254  d=date|echo '$d'
+  255* 
+  256  d=date|echo `$d`
+  257  echo a
+  258  a=3
+  259  b
+  260  b=4
+  261  echo a+b
+  262  echo `a+b`
+  263  $a+$b
+  264  echo `$a+$`
+  265  echo `$a+$b`
+  266  echo $a+$b
+  267  $a+$b
+  268  $a+$b=
+  269  =$a+$b
+  270  $a+$b=$c
+  271  c=$a+$b
+  272  4c
+  273  c
+  274  $c
+  275  echo $c
+  276  echo "$c"
+  277  $(($a+$b))
+  278  echo $(($a+$b))
+  279  c=(($a+$b))
+  280  c=$(($a+$b))
+  281  $c
+  282  echo $c
+  283  l=echo $c
+  284  l=(echo $c)
+  285* 
+  286  l=`echo $c`
+  287  $l
+  288  l=echo `$c`
+  289  l="echo `$c`"
+  290  l=(echo `$c`)
+  291  echo $c
+  292  m=echo $(($a+$b))
+  293  m=`echo $(($a+$b))`
+  294  ¢m
+  295* 
+  296  m=echo `$(($a+$b))`
+  297  m="echo `$(($a+$b))`"
+  298  m=(echo `$(($a+$b))`)
+  299  m=)(echo `$(($a+$b))`))
+  300  m=((echo `$(($a+$b))`))
+  301  c=$(($a+$b))
+  302  $c
+  303  echo $c
+  304  ```````````````````````````````````````
+
+
+  305  c=%(($a+$b))
+  306  c=(($a+$b))
+  307  c=$(($a+$b))
+  308  e=echo
+  309  $e
+  310  $e $c
+  311  p=$e $c
+  312  p=`$e $c`
+  313  $p
+  314  $((a+b)) EUR
+  315  echo $((a+b)) EUR
+  316  echo $((a+b)) EUR > a.txt
+  317  ls
+  318  ls | head -n | wc -c
+  319  ls | head -n | wc -n
+  320  ls | head -n | wc -c
+  321  wc --help
+  322  ls | head -n | wc -m
+  323  $cat a.txt
+  324  cat a.txt
+  325  cat | head n-1
+  326  cat head n-1
+  327  cat  `head n-1`
+  328  head a.txt
+  329  history 
+  330  date
+  331  head a.txt
+  332  history 
+  333  history  > h.txt
