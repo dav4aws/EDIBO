@@ -18,13 +18,23 @@
 
 **sh** - atvert shell(mazak resursus ed)
 
-**cp <file1> <file1-renamed>** - COPY/PASTE
+**cp file1 file1-renamed** - COPY/PASTE
 
 >adresses - absolute(/ - root directory), relative(./../~)
 
 **cd ..** - atpakaļ uz maju
 
-**hexdump** - parada bymaro un hex codu
+**hexdump** - parada hex codu vai ASCII
+
+![ascii tabula](http://www.ecowin.org/aulas/resources/tables/asciitable.jpg)
+http://www.ecowin.org/ascii.htm
+
+**xxd -b file** - parada binary 
+>1byte = 8bits => unique codes 2^8 = 256
+
+**whereis command** - kur atrodas commanda
+
+**$PATH** - 
 
 -------------------
 
