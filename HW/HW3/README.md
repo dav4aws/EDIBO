@@ -69,10 +69,15 @@ nano, pico, vim
 
 # Majas Darbi
 Window Total Commander
+
 Bits to Dec
+
 Bits to Hex
+
 UBUNTU 18.04(Extra Desktop)
+
 Install WSL
+
 
 
 
