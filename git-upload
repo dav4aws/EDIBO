@@ -1,0 +1,6 @@
+#!/bin/bash
+git config --global user.email dav4awss@gmail.com
+git add .
+git commit -m "20200703_16_39"
+git pull
+git push origin master
