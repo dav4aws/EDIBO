@@ -60,6 +60,15 @@ nano, pico, vim
 **q un q!** - iziet ara
 **wq** - saglabat un iziet
 
+**DD** - dzeš visu rindu
+**GG** - uz pasu augsu
+**SHIFT + G** - uz apaksu
+**x** - izdzeš burtu
+**V** - iezime
+**Y** - nokope
+**P** - ielikt
+**/** - meklet
+
 
 ## MC
 **mc** - file explorer
