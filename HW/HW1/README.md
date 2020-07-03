@@ -13,6 +13,9 @@ Analysis of windows event logs using pandas DataFrame
 **pandas instalācija un dokumentācija, ja neizmanto Anaconda**
 [pandas install and documentation LINK](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
 
+**PyCharm Python IDE**
+[Pycharm Official Homepage](https://www.jetbrains.com/pycharm/)
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Kas ir pandas DataFrame?**
