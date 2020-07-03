@@ -16,6 +16,9 @@ Analysis of windows event logs using pandas DataFrame
 **PyCharm Python IDE**
 [Pycharm Official Homepage](https://www.jetbrains.com/pycharm/)
 
+**Using PyCharm Whit Anaconda**
+[PyCharm-Anaconda documentation](https://docs.anaconda.com/anaconda/user-guide/tasks/pycharm/)
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Kas ir pandas DataFrame?**
