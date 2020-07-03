@@ -3,16 +3,13 @@
 Analysis of windows event logs using pandas DataFrame
 
 **Python Instalācija**
-
 [Python download LINK](https://www.python.org/downloads/)
 
 
 **Anacondas instalācija un dokumentācija**
-
 [Anacoda install and documentation LINK](https://docs.continuum.io/anaconda/install/)
 
 **Kas ir pandas DataFrame?**
-
 [pandas.DataFrame Dokumentācija](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
 
 
