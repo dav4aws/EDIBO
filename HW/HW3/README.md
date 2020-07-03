@@ -52,6 +52,30 @@ http://www.ecowin.org/ascii.htm
 
 **d** - direktorija ir/nav
 
+----------------------------------------------------
+nano, pico, vim
+
+## VIM
+**vim** ieiet
+**q un q!** - iziet ara
+**wq** - saglabat un iziet
+
+
+## MC
+**mc** - file explorer
+**ESC un 0**
+
+
+
+# Majas Darbi
+Window Total Commander
+Bits to Dec
+Bits to Hex
+UBUNTU 18.04(Extra Desktop)
+Install WSL
+
+
+
 
 
 
