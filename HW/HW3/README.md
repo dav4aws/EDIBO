@@ -65,7 +65,7 @@ nano, pico, vim
 **mc** - file explorer
 **ESC un 0**
 
-
+-----------------------------------------------
 
 # Majas Darbi
 Window Total Commander
