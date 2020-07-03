@@ -34,7 +34,13 @@ http://www.ecowin.org/ascii.htm
 
 **whereis command** - kur atrodas commanda
 
-**$PATH** - 
+**$PATH** - kur mekle shells
+
+**PATH=$PATH:~** - pievienot path
+
+**chmod 744** - parveidot tiesibas, no bits to dec 111 = 7
+
+
 
 -------------------
 
