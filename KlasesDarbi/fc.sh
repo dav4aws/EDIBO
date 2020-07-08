@@ -1,7 +1,10 @@
 #! /bin/bash
 
+echo Ieraksti mapes nosaukumu:
+read nosaukums
+
 date=`date +%Y%m%d`
 
-mkdir $date
+mkdir $date-$nosaukums
 
-echo $date mapite izveidota
+echo $date-$nosaukums mapite izveidota
