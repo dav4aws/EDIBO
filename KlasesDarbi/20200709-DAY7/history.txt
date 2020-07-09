@@ -1,0 +1,271 @@
+2**10000
+a = 2**10000
+a
+type(a)
+a = str(a)
+a
+type(a)
+x = a.count(1)
+a.count(1)
+a.count("1")
+a.count("2")
+a.count("3")
+a.count("4")
+a.count("5")
+a.count("6")
+a.count("7")
+a.count("8")
+a.count("9")
+a=2*1000000
+type(a)
+a = str(a)
+a.count("1")
+a.count("2")
+a
+a=2**1000000
+type(a)
+a = str(a)
+a
+a.count("1")
+a.count("2")
+a.count("3")
+a.count("4")
+a.count("0");a.count("1");a.count("2");a.count("3");a.count("4");a.count("5");a.count("6");a.count("7");a.count("8");a.count("9");
+a.count("0"); a.count("1");
+a.count("0", "1");
+a.count("0"; "1");
+a.count("0", "1");
+a.count("0") a.count("1")
+a.count("0")
+print a.count("
+print a.count("1")
+print "a.count("1")"
+print `a.count("1")`
+print a
+print $a
+print
+print "
+print "a"
+print(a)
+print(a.count("1"))
+print(a.count("1");a.count("2"))
+print(a.count("1"),a.count("2"))
+a0=a.count("0")
+a0
+a1=a.count("1")
+a2=a.count("2")
+a
+for x in a
+for x in a; print(x.count("1"))
+a3=a.count("3")
+a4=a.count("4")
+a5=a.count("5")
+a6=a.count("6")
+a7=a.count("7")
+a8=a.count("8")
+a9=a.count("9")
+print(a0)
+print(a0,a1,a2,a3)
+print(a0,a1,a2,a3,a4,a5,a6,a7,a8,a9)
+print.sort(a0,a1,a2,a3,a4,a5,a6,a7,a8,a9)
+a.sort(a0,a1,a2,a3,a4,a5,a6,a7,a8,a9)
+int(a0,a1,a2,a3,a4,a5,a6,a7,a8,a9)
+int(a0;a1;a2;a3;a4;a5;a6;a7;a8;a9)
+int(a0)
+a0=int(a0)
+type(a0)
+a1=int(a1)
+a2=int(a2)
+a3=int(a3)
+a4=int(a4)
+a5=int(a5)
+a6=int(a6)
+a7=int(a7)
+a8=int(a8)
+a9=int(a9)
+list = [a0,a1,a2,a3,a4,a5,a6,a7,a8,a9]
+list.sort()
+print("Largerst element is:",list[-1])
+print(30354)
+a
+for i in a:
+    a.count(i)
+z = complex()
+type(z)
+z
+i = 9
+for i range(0, i+1):
+for i in range(0, i+1):
+for i in range(0, i+1):
+    ab = a.count(i)
+    print(ab)
+for i in range(0, i+1):
+    str(ab) = a.count(i)
+    print(ab)
+a
+list = [a0...a9]
+list = [a0..a9]
+a+1
+b+1
+b = b
+b=b
+b="b"
+b+1
+str(1)
+str(1)+b
+b+1
+b+str(1)
+for i in range(0, i+1):
+    print(i)
+for i in range(0, i+1):
+    print(i)
+for i in range(0, i+1, i==9):
+    print(i)
+for i in range(0, i+1, i==9):
+    print(i)
+for i in range(9, i+1):
+    print(i)
+for i in range(9, i+1):
+    print(i)
+for i in range(0, i+1, i=9):
+    print(i)
+for i in range(0, i+1, i==9):
+    print(i)
+for i in range(0, i+1, 9):
+    print(i)
+for i in range(0, i+1, 9):
+    print(i)
+for i in range(0, i+1, i++):
+    print(i)
+c = (11,22)
+type(c)
+c.index
+c.index()
+i = 0
+while i = 9:
+while i == 9:
+    print(i)
+while i == 9:
+    print(i)
+    i+=1
+while i < 10:
+    print(i)
+    i+=1
+while i < 10:
+    print(i)
+    i+=1
+while i < 10:
+    print(i)
+    i+=1
+while i < 10:
+    print(i)
+    i+=1
+while i < 10:
+    print(i)
+    i+=2
+while i < 10:
+    print(i)
+    i+=1
+x1 3.14
+x1=3.14
+x2=4
+x3=5
+x4=11
+c=[x1,x2,x3,x4]
+c.sort()
+print(c.sort())
+c
+type(c)
+c.append(33)
+c
+c.sort(c)
+c.sort()
+c.sort(reversed=true)
+c.sort(reversed=True)
+c.sort
+c.sort()
+c
+c.sort(reversed=False)
+c
+c.append(22)
+c
+c.sort()
+c
+c.sort(reverse=True)
+c
+c.pop
+c.pop(1)
+c
+c = ["Riga", 1, 2020]
+c
+c.pop(1)
+c
+d = {}
+d = {"abols":"apple"}
+d
+d
+d1
+abols
+print(abols)
+d["abols"]
+d.update({"bumbieris":"birne"})
+d
+d.pop(abols)
+d.pop("abols")
+d
+d.update({"myint":"123"})
+d
+d.update([11,22,33])
+d = [123, 132], {"test":"test}
+d = [123, 132], {"test":"test"}
+d
+d(test)
+d("test")
+d["test"]
+d = {"list":"[123,111,222]"})
+d = {"list":"[123,111,222]"}
+d
+type(d)
+d.update({"abols":"apple"
+})
+d
+d.update({"int":"123", "float":"3.13"})
+d
+d.update({"str":"apple"})
+d
+type(d)
+c = [123, "RIGA"]
+c
+type(c)
+c = (123, "RIGA")
+c
+type(c)
+d.update({"tuple":"['ha', '123']})
+d.update({"tuple":"['ha', '123']})
+d.update({"tuple":"('ha', '123')"})
+d
+d.update({"dict":"[{'test':'testing'}]"})
+d
+d["list"]
+type(d["list"])
+type(d["tuple"])
+d.update({"tuple":(123, "riga")})
+d
+d["tuple"]
+type(d["tuple])
+type(d["tuple"])
+d
+d.update({"list":[111, 222, 333]})
+type(d["list"])
+d.update({"dict":({"test":"testing"})})
+d
+type(d["dict"])
+d["list"][-1]
+d["list"][-1].lower()
+d
+history
+history >> a.txt
+ls
+export("history", "history.txt")
+history
+
