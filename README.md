@@ -7,3 +7,10 @@ Mans pirmais pieraksts ^^
 
 
 [ascii tabula](http://www.ecowin.org/aulas/resources/tables/asciitable.jpg)
+
+
+
+------------------------------------------------------
+# Izveidotie Darbi
+
+[Weblapa(HTML, CSS, JS,BootStrap](https://github.com/dav4aws/EDIBO/tree/master/KlasesDarbi/20200713-DAY9-10/WEB)
