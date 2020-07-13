@@ -1,0 +1,65 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+
+<title>WebPage</title>
+
+</head>
+	<body>
+		<div id="logo">WEB-PAGE</div>
+
+		<div id="uzdevums">
+			Create web with JS, with data visualisation(take data somewhere, currency exch)   and plot these data(allow select number of curves,for example, number of currencies)
+		
+		</div>
+
+<div style="width:50%;margin:0 auto;">
+<canvas id="myChart"></canvas>
+</div>
+
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+data: {
+  
+        labels: [2015,2016,2017,2018,2019,2020],
+        
+        datasets: [{ 
+        data: [100,200,300,400,500,600],
+        label: "€ EUR",
+        borderColor: "#3e95cd",
+        fill: false
+      }, { 
+        data: [-100,-350,-411,-502,-635,-809],
+        label: "$ DOLLAR",
+        borderColor: "#8e5ea2",
+        fill: false
+      }, { 
+        data: [32,50,45,65,90, 111],
+        label: "£ POUND",
+        borderColor: "#3cba9f",
+        fill: false
+      }],
+        
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+
+	</body>
+
+</html>

@@ -1,0 +1,1 @@
+create web with js with data visualisation(take data somewhere, currency exch)   and plot these data(allow select number of curves,for example, number of currencies
