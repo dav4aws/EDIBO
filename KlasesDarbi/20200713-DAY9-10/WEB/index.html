@@ -5,61 +5,137 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 
-<title>WebPage</title>
+<title>Sakumlapa</title>
 
 </head>
 	<body>
-		<div id="logo">WEB-PAGE</div>
-
-		<div id="uzdevums">
-			Create web with JS, with data visualisation(take data somewhere, currency exch)   and plot these data(allow select number of curves,for example, number of currencies)
+	    <div id="logo">Sakumlapa</div>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	    <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="index.html">Sakumlapa</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="exch.html">Exchange rates</a>
+  </li>
+</ul>
+</nav>
 		
-		</div>
-
-<div style="width:50%;margin:0 auto;">
-<canvas id="myChart"></canvas>
+<div style="margin:10px;" class="alert alert-success" role="alert">
+  Slider, Tabula, Images, Headings, Links, 
+</div>
+	
+		
+		<div id="page">
+		<h1>Slider</h1>
+		
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://earthsky.org/upl/2020/02/dark-matter-artist.jpeg" class="d-block w-100" alt="YES">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.ctfassets.net/cnu0m8re1exe/7At7Yj0y7lvitJLSPI7QIg/04fdb22e91e77848252dc8265e75444c/Dark-Matter.jpg?w=650&h=433&fit=fill" class="d-block w-100" alt="YO">
+    </div>
+    <div class="carousel-item">
+      <img src="https://wp-assets.futurism.com/2014/07/Dark-Matter-Filaments.jpg" class="d-block w-100" alt="HAHA">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
-<script>
-var ctx = document.getElementById('myChart').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'line',
-data: {
+<h1>Tabulas</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Vards</th>
+      <th scope="col">Uzvards</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Janka</td>
+      <td>Oga</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Peteris</td>
+      <td>Pushka</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Lauris</td>
+      <td>Labais</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Image</h1>
+<img style="width:300px;height:300px;border:1px dashed black;" class="img-thumbnail" src="https://ahsblueandgold.org/wp-content/uploads/2018/02/Maroper_Music.jpg"/>
+
+<h1>Headings</h1>
+<h2>Headings</h2>
+<h3>Headings</h3>
+<h4>Headings</h4>
+<h5>Headings</h5>
+<h6>Headings</h6>
+
+
+<h1>Linki</h1>
+<a href="#">Links</a><br>
+<a href="#" class="badge badge-primary">Primary</a>
+<a href="#" class="badge badge-secondary">Secondary</a>
+<a href="#" class="badge badge-success">Success</a>
+<a href="#" class="badge badge-danger">Danger</a>
+<a href="#" class="badge badge-warning">Warning</a>
+<a href="#" class="badge badge-info">Info</a>
+<a href="#" class="badge badge-light">Light</a>
+<a href="#" class="badge badge-dark">Dark</a>
+
+<h1>Lists</h1>
+<ul class="list-group">
+  <li class="list-group-item">Janis</li>
+  <li class="list-group-item">Peteris</li></li>
+  <li class="list-group-item">Lauris</li>
+
+</ul>
+
+
+</div>
+
+
+<footer>
+  <div class="left-side">
+    Exchange rate
+  </div>
   
-        labels: [2015,2016,2017,2018,2019,2020],
-        
-        datasets: [{ 
-        data: [100,200,300,400,500,600],
-        label: "€ EUR",
-        borderColor: "#3e95cd",
-        fill: false
-      }, { 
-        data: [-100,-350,-411,-502,-635,-809],
-        label: "$ DOLLAR",
-        borderColor: "#8e5ea2",
-        fill: false
-      }, { 
-        data: [32,50,45,65,90, 111],
-        label: "£ POUND",
-        borderColor: "#3cba9f",
-        fill: false
-      }],
-        
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        }
-    }
-});
-</script>
-
-	</body>
-
+  <div class="right-side">
+    Created by Davids
+  </div>
+</footer>
+</body>
 </html>
+

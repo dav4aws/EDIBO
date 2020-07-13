@@ -1,0 +1,96 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+
+<title>Exchange Rates</title>
+
+</head>
+	<body>
+	 
+	    <div id="logo">Exchange Rates</div>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	    <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="index.html">Sakumlapa</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="exch.html">Exchange rates</a>
+  </li>
+</ul>
+</nav>
+<div id="page" style="min-height:800px;">
+		<div id="uzdevums">
+			Create web with JS, with data visualisation(take data somewhere, currency exch)   and plot these data(allow select number of curves,for example, number of currencies)
+		
+		</div>
+
+    <div id="chart-title">
+      Exchange Rate - EUR/USD/POUND
+    </div>
+
+<div style="width:50%;margin:0 auto;">
+<canvas id="myChart"></canvas>
+</div>
+</div>
+
+<footer>
+  <div class="left-side">
+    Exchange rate
+  </div>
+  
+  <div class="right-side">
+    Created by Davids
+  </div>
+</footer>
+	</body>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    
+data: {
+  
+        labels: [2015,2016,2017,2018,2019,2020],
+        
+        datasets: [{ 
+        data: [1.09525,1.03928,1.17703,1.14082,1.11948,1.133387],
+        label: "€ EUR to USD",
+        borderColor: "#3e95cd",
+        fill: false
+      }, { 
+        data: [0.9116,0.9618,0.8499,0.8722,0.8929,0.8820],
+        label: "$ USD to EUR",
+        borderColor: "#8e5ea2",
+        fill: false
+      }, { 
+        data: [1.35655,1.17368,1.12643,1.10936,1.10630,1.11426],
+        label: "£ GRP to EUR",
+        borderColor: "#3cba9f",
+        fill: false
+      }],
+        
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+
+</html>
