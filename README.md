@@ -11,6 +11,6 @@ Mans pirmais pieraksts ^^
 
 
 ------------------------------------------------------
-# Izveidotie Darbi
+## Izveidotie Darbi
 
 [Weblapa(HTML, CSS, JS,BootStrap](https://github.com/dav4aws/EDIBO/tree/master/KlasesDarbi/20200713-DAY9-10/WEB)
