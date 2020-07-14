@@ -11,11 +11,18 @@ body{
 	color:white;
 }
 
+
+
+.white{
+  color:white;
+}
+
 .navbar{
 	height:40px;
 }
 
-.nav-item a:hover{
+.nav-item a:hover,
+.white:hover{
 	color:black;
 	background-color: lightblue;
 }

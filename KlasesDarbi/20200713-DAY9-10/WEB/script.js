@@ -7,10 +7,10 @@ $(function(){
 });
 
 
-var TITLE = 'Hartford School District is No Longer the Largest in Connecticut';
+var TITLE = 'Random CSV file';
 
-var X_AXIS = 'Academic Year';  // x-axis label and label in tooltip
-var Y_AXIS = 'Number of Students'; // y-axis label and label in tooltip
+var X_AXIS = 'Year';  // x-axis label and label in tooltip
+var Y_AXIS = 'Random number'; // y-axis label and label in tooltip
 
 var BEGIN_AT_ZERO = false;  // Should x-axis start from 0? `true` or `false`
 
