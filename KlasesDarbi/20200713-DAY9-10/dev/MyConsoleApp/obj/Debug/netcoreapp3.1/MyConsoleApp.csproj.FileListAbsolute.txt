@@ -1,0 +1,13 @@
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/bin/Debug/netcoreapp3.1/MyConsoleApp
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/bin/Debug/netcoreapp3.1/MyConsoleApp.deps.json
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/bin/Debug/netcoreapp3.1/MyConsoleApp.runtimeconfig.json
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/bin/Debug/netcoreapp3.1/MyConsoleApp.runtimeconfig.dev.json
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/bin/Debug/netcoreapp3.1/MyConsoleApp.dll
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/bin/Debug/netcoreapp3.1/MyConsoleApp.pdb
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/obj/Debug/netcoreapp3.1/MyConsoleApp.csprojAssemblyReference.cache
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/obj/Debug/netcoreapp3.1/MyConsoleApp.AssemblyInfoInputs.cache
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/obj/Debug/netcoreapp3.1/MyConsoleApp.AssemblyInfo.cs
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/obj/Debug/netcoreapp3.1/MyConsoleApp.csproj.CoreCompileInputs.cache
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/obj/Debug/netcoreapp3.1/MyConsoleApp.dll
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/obj/Debug/netcoreapp3.1/MyConsoleApp.pdb
+/home/user/Desktop/EDIBO/KlasesDarbi/MyConsoleApp/obj/Debug/netcoreapp3.1/MyConsoleApp.genruntimeconfig.cache
