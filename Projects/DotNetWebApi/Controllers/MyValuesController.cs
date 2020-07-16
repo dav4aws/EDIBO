@@ -15,7 +15,7 @@ namespace DotNetWebApi.Controllers
 
         [HttpGet]
         public ActionResult<IEnumerable<string>> GetAction(){
-            return new string[] {"July", "2020", "EDIBO", "RTU"};
+            return new string[] {"Davids","July", "2020", "EDIBO", "RTU"};
         }
     }
 }
