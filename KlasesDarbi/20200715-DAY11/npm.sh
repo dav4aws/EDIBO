@@ -20,7 +20,9 @@ ng new data
 cd data
 mv node_modules ../FirstAngular/
 echo ----------------------- DONE -------------------------
+cd ../FirstAngular
 ng add @angular/material
 echo ----------------------- DONE -------------------------
+cd ../
 rmdir data
 echo ----------------------- DONE -------------------------
