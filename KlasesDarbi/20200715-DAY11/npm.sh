@@ -24,5 +24,5 @@ cd ../FirstAngular
 ng add @angular/material
 echo ----------------------- DONE -------------------------
 cd ../
-rmdir data
+rm -rf data
 echo ----------------------- DONE -------------------------
