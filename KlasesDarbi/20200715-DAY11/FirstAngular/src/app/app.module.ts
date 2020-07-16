@@ -13,6 +13,10 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { BildesComponent } from './bildes/bildes.component';
 
 
 @NgModule({
@@ -20,7 +24,8 @@ import {MatButtonModule} from '@angular/material/button';
     AppComponent,
     HelloworldComponent,
     ImagesComponent,
-    GuisComponent
+    GuisComponent,
+    BildesComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +35,11 @@ import {MatButtonModule} from '@angular/material/button';
     MatDividerModule,
     MatSlideToggleModule,
     MatListModule,
-    MatButtonModule
+    MatButtonModule,
+    MatAutocompleteModule,
+    MatFormFieldModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

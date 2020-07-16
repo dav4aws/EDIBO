@@ -1,0 +1,9 @@
+<button style="margin-bottom: 20px;" (click)="increaseimgCount()">Radit</button>
+<button (click)="isVisable=!isVisable">Show/Hide</button>
+
+
+  <div *ngIf="isVisable">
+    <div style="display: inline-block; margin: 20px;;" *ngFor="let image of imageSrc">
+      <img style="width:200px;height:200px;border:1px dashed black;border-radius: 10px;" [src]="image" alt="Background Image"/>
+    </div>
+  </div>
