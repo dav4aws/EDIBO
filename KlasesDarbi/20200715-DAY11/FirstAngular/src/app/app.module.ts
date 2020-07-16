@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HelloworldComponent } from './helloworld/helloworld.component';
 import { ImagesComponent } from './images/images.component';
 import { GuisComponent } from './guis/guis.component';
+// import { InputErrorComponent } from './input-error/input-error.component';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatSliderModule} from '@angular/material/slider';
@@ -16,7 +18,15 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import { BildesComponent } from './bildes/bildes.component';
+import {BildesComponent} from './bildes/bildes.component';
+import {MatInputModule} from '@angular/material/input';
+import { EmailInputComponent } from './email-input/email-input.component';
+import { NavComponent } from './nav/nav.component';
+import { SpinnerComponent } from './spinner/spinner.component';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatCardModule} from '@angular/material/card';
+import {MatRadioModule} from '@angular/material/radio'; 
+
 
 
 @NgModule({
@@ -25,7 +35,11 @@ import { BildesComponent } from './bildes/bildes.component';
     HelloworldComponent,
     ImagesComponent,
     GuisComponent,
-    BildesComponent
+    BildesComponent,
+    EmailInputComponent,
+    NavComponent,
+    SpinnerComponent,
+  //  InputErrorComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,7 +53,11 @@ import { BildesComponent } from './bildes/bildes.component';
     MatAutocompleteModule,
     MatFormFieldModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatInputModule,
+    MatProgressSpinnerModule,
+    MatCardModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
