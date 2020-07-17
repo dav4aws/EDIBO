@@ -6,7 +6,10 @@ import { AppComponent } from './app.component';
 import { HelloworldComponent } from './helloworld/helloworld.component';
 import { ImagesComponent } from './images/images.component';
 import { GuisComponent } from './guis/guis.component';
-// import { InputErrorComponent } from './input-error/input-error.component';
+import { CurrencyComponent } from './currency/currency.component';
+
+
+import { ProfileService } from './profile.service';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -25,7 +28,9 @@ import { NavComponent } from './nav/nav.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatCardModule} from '@angular/material/card';
-import {MatRadioModule} from '@angular/material/radio'; 
+import {MatRadioModule} from '@angular/material/radio';
+import {MatDialogModule} from '@angular/material/dialog';
+import { DialogComponent } from './dialog/dialog.component';
 
 
 
@@ -39,7 +44,11 @@ import {MatRadioModule} from '@angular/material/radio';
     EmailInputComponent,
     NavComponent,
     SpinnerComponent,
-  //  InputErrorComponent,
+    CurrencyComponent,
+    DialogComponent
+  ],
+  exports:[
+    CurrencyComponent
   ],
   imports: [
     BrowserModule,
@@ -57,9 +66,12 @@ import {MatRadioModule} from '@angular/material/radio';
     MatInputModule,
     MatProgressSpinnerModule,
     MatCardModule,
-    MatRadioModule
+    MatRadioModule,
+    MatDialogModule
   ],
-  providers: [],
+  providers: [
+    ProfileService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

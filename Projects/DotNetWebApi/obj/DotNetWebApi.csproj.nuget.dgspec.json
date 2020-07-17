@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/Desktop/EDIBO/KlasesDarbi/20200715-DAY11/DotNetWebApi/DotNetWebApi.csproj": {}
+    "/home/user/Desktop/EDIBO/Projects/DotNetWebApi/DotNetWebApi.csproj": {}
   },
   "projects": {
-    "/home/user/Desktop/EDIBO/KlasesDarbi/20200715-DAY11/DotNetWebApi/DotNetWebApi.csproj": {
+    "/home/user/Desktop/EDIBO/Projects/DotNetWebApi/DotNetWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/Desktop/EDIBO/KlasesDarbi/20200715-DAY11/DotNetWebApi/DotNetWebApi.csproj",
+        "projectUniqueName": "/home/user/Desktop/EDIBO/Projects/DotNetWebApi/DotNetWebApi.csproj",
         "projectName": "DotNetWebApi",
-        "projectPath": "/home/user/Desktop/EDIBO/KlasesDarbi/20200715-DAY11/DotNetWebApi/DotNetWebApi.csproj",
+        "projectPath": "/home/user/Desktop/EDIBO/Projects/DotNetWebApi/DotNetWebApi.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/Desktop/EDIBO/KlasesDarbi/20200715-DAY11/DotNetWebApi/obj/",
+        "outputPath": "/home/user/Desktop/EDIBO/Projects/DotNetWebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/user/.nuget/NuGet/NuGet.Config"

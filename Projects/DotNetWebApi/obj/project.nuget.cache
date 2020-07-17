@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5bGIDIAvRdI1XYT/m8kjdU6yAEVlL1DZXtEZcQqlPValRjOLbFciEd0YSGUy6EfGpOyoXlEK90Wps5VYYCdLwg==",
+  "dgSpecHash": "Ep6Az4j2aFsZTlbnA6POwBsGGVZv1bfxGkun00tM6JJaWH70Q5JipMDezCTt6az6p4IlyoC1dEqEGRI/9VvfnQ==",
   "success": true,
-  "projectFilePath": "/home/user/Desktop/EDIBO/KlasesDarbi/20200715-DAY11/DotNetWebApi/DotNetWebApi.csproj",
+  "projectFilePath": "/home/user/Desktop/EDIBO/Projects/DotNetWebApi/DotNetWebApi.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
