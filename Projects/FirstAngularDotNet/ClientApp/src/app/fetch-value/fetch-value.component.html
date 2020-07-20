@@ -1,0 +1,21 @@
+<h1>My Values</h1>
+
+<p>This component is fetching data from MyValuesController</p>
+
+
+
+
+<p *ngIf="!data"><em>Loading...</em></p>
+
+
+
+<div class='table table-striped' aria-labelledby="tableLabel" *ngIf="data">
+<div id="box" *ngFor="let dat of data">
+
+<div class="name">{{dat.name}}</div>
+<div class="img"><img src="{{dat.img}}"/></div>
+<div class="age">Vecums: {{dat.age}}</div>
+<div class="rak">Raksturs: {{dat.character}}</div>
+</div>
+</div>
+

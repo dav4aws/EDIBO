@@ -30,7 +30,6 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatCardModule} from '@angular/material/card';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatDialogModule} from '@angular/material/dialog';
-import { DialogComponent } from './dialog/dialog.component';
 
 
 
@@ -45,7 +44,6 @@ import { DialogComponent } from './dialog/dialog.component';
     NavComponent,
     SpinnerComponent,
     CurrencyComponent,
-    DialogComponent
   ],
   exports:[
     CurrencyComponent

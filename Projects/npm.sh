@@ -8,9 +8,20 @@ export NVM_DIR="$HOME/.nvm" && (
 ) && \. "$NVM_DIR/nvm.sh"
 echo ------------------ NODE DONE -------------------------
 
+echo Loading NODE..................
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+echo ---------------- NODE LOADED -------------------------
+
 echo Installing NPM................
 `nvm i 12`
 echo ---------------- NPM INSTALLED -----------------------
+
+echo Loading NVP..................
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+echo ---------------- NODE LOADED -------------------------
+
 
 echo Installing ANGLUAR................
 `npm install -g @angular/cli`
