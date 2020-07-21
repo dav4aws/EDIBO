@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CurrencyComponent } from './currency.component';
-import { CurrencyService} from './currency.service';
+import { WeatherComponent } from './weather.component';
+import { WeatherService} from './weather.service';
 import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
-  declarations: [CurrencyComponent],
+  declarations: [WeatherComponent],
   imports: [
     CommonModule,
     HttpClientModule,
   ],
   exports:[
-    CurrencyComponent,
+    WeatherComponent,
   ],
   providers:[
-    CurrencyService
+    WeatherService
   ]
 })
-export class CurrencyModule { }
+export class WeatherModule { }

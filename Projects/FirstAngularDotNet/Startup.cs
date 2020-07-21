@@ -10,6 +10,8 @@ namespace FirstAngularDotNet
 {
     public class Startup
     {
+readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -26,6 +28,15 @@ namespace FirstAngularDotNet
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+
+            services.AddCors(options =>
+        {
+            options.AddPolicy(name: MyAllowSpecificOrigins,
+                              builder =>
+                              {
+                                  builder.WithOrigins("http://localhost:4200");
+                              });
+        });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +53,8 @@ namespace FirstAngularDotNet
                 app.UseHsts();
             }
 
+            app.UseCors(MyAllowSpecificOrigins);
+            
             // app.UseHttpsRedirection();
             app.UseStaticFiles();
             if (!env.IsDevelopment())

@@ -1,0 +1,22 @@
+<h1>Weather</h1>
+
+<table class="table table-border">
+  <thead>
+    <th>Datums</th>
+    <th>TempC</th>
+    <th>TempF</th>
+    <th>Summary</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let weather of weathers">
+      <td>{{weather.w.date}}</td>
+      <td>{{weather.w.temperatureC}}</td>
+      <td>{{weather.w.temperatureF}}</td>
+      <td>{{weather.w.summary}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- <div>
+  {{weathers | json}}
+</div> -->

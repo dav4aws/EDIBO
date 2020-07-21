@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HelloworldComponent } from './helloworld/helloworld.component';
 import { ImagesComponent } from './images/images.component';
 import { GuisComponent } from './guis/guis.component';
-import { CurrencyComponent } from './currency/currency.component';
 
 
 import { ProfileService } from './profile.service';
@@ -30,6 +29,8 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatCardModule} from '@angular/material/card';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatDialogModule} from '@angular/material/dialog';
+import{CurrencyModule} from './currency/currency.module'
+import { WeatherModule } from './weather/weather.module';
 
 
 
@@ -43,10 +44,6 @@ import {MatDialogModule} from '@angular/material/dialog';
     EmailInputComponent,
     NavComponent,
     SpinnerComponent,
-    CurrencyComponent,
-  ],
-  exports:[
-    CurrencyComponent
   ],
   imports: [
     BrowserModule,
@@ -65,7 +62,9 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatProgressSpinnerModule,
     MatCardModule,
     MatRadioModule,
-    MatDialogModule
+    MatDialogModule,
+    CurrencyModule,
+    WeatherModule
   ],
   providers: [
     ProfileService

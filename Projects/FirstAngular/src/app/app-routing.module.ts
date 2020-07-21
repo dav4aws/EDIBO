@@ -5,6 +5,8 @@ import { ImagesComponent } from './images/images.component';
 import { GuisComponent } from './guis/guis.component';
 import {BildesComponent } from './bildes/bildes.component';
 import  {SpinnerComponent} from './spinner/spinner.component';
+import { CurrencyComponent } from './currency/currency.component';
+import { WeatherComponent } from './weather/weather.component';
 
 
 const routes: Routes = [
@@ -12,7 +14,9 @@ const routes: Routes = [
   {path: 'image', component: ImagesComponent},
   {path: 'guis', component: GuisComponent},
   {path: 'bildes', component: BildesComponent},
-  {path: 'spinner', component: SpinnerComponent}
+  {path: 'spinner', component: SpinnerComponent},
+  {path: 'cur', component:CurrencyComponent},
+  {path: 'weather', component:WeatherComponent}
 ];
 
 @NgModule({
