@@ -31,6 +31,8 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatDialogModule} from '@angular/material/dialog';
 import{CurrencyModule} from './currency/currency.module'
 import { WeatherModule } from './weather/weather.module';
+import { LoginComponent } from './login/login.component';
+import { GreetComponent } from './greet/greet.component';
 
 
 
@@ -44,6 +46,8 @@ import { WeatherModule } from './weather/weather.module';
     EmailInputComponent,
     NavComponent,
     SpinnerComponent,
+    LoginComponent,
+    GreetComponent,
   ],
   imports: [
     BrowserModule,

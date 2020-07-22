@@ -1,0 +1,24 @@
+<div id="page">
+  <h1>Esi sveiks Mana MajasLapa</h1>
+
+  <div id="login-block">
+    <form style="margin-top: 20px;" onsubmit="return false">
+        <span class="name">Ieraksti savu vardu!</span>
+        <input
+          class="input-name"
+          name="name"
+          placeholder="Enter your name"
+          [(ngModel)]="person.name"
+        >
+      
+        <button 
+            style="margin-top: 10px;"
+            type="submit"
+            class="btn btn-block btn-primary"
+            (click)="submitForm()">
+                Save
+        </button>
+        
+    </form>
+  </div>
+</div>

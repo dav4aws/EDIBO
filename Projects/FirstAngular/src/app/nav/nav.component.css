@@ -24,3 +24,19 @@
   .toolbar #twitter-logo:hover {
     opacity: 0.8;
   }
+
+
+  .spacer {
+    flex: 1;
+  }
+
+  .left-side{
+    margin-right: 10px;
+  }
+
+  .toolbar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    cursor:pointer;
+  }

@@ -4,6 +4,14 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ProfileService {
-  vards = 'Test';
+  
+  private loadData(){
+    const data = localStorage.getItem('person');
+    return data    
+    ? JSON.parse(data)
+    : { name: '' }
+  }
+
+  person = this.loadData();
 
 }
