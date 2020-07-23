@@ -1,0 +1,24 @@
+<h1 id="tableLabel">ToDo LIST</h1>
+
+<p>What to do list.</p>
+
+<p *ngIf="!datas"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="datas">
+  <thead>
+    <tr>
+      <th>Nr</th>
+      <th>Name:</th>
+      <th>Complete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of datas">
+      <td>{{ data.id }}</td>
+      <td>{{ data.name }}</td>
+      <td>{{ data.isComplete }}</td>
+    </tr>
+  </tbody>
+</table> 
+
+<!-- {{ datas | json }} -->
