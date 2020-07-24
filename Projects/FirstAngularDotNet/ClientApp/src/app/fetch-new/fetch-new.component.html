@@ -10,6 +10,8 @@
       <th>Nr</th>
       <th>Name:</th>
       <th>Complete</th>
+      <th>Date</th>
+      <th>Edit</th>
     </tr>
   </thead>
   <tbody>
@@ -17,8 +19,29 @@
       <td>{{ data.id }}</td>
       <td>{{ data.name }}</td>
       <td>{{ data.isComplete }}</td>
+      <td>{{ data.creationTime | date : 'yyyy-MM-dd H:mm' }}</td>
+      <td><a href="/fetch-new/{{data.id}}">ID</a></td>
     </tr>
   </tbody>
 </table> 
+
+
+
+<form [formGroup]='person'>
+
+<h1>Create TodoItem</h1>
+<div class="form-group">
+  <label>Enter Name:</label>
+  <input type="text" name="name" [formControl]="person.get('name')" class="form-control" placeholder="Enter name">
+
+  <label>Is it completed:</label>
+  <input value="true" disabled name="isComplete" [formControl]="person.get('isComplete')" class="form-control" placeholder="True/False">
+</div>
+
+<button type="submit" 
+          class="btn btn-block btn-primary" 
+          (click)="submitForm($event)">Save</button>
+
+</form>
 
 <!-- {{ datas | json }} -->

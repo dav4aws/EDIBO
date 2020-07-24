@@ -1,0 +1,27 @@
+<a href="/fetch-new">Back</a>
+<h1>DATA</h1>
+<b>Name:</b>{{datas.name}}<br>
+<b>Completed:</b>{{datas.isComplete}}<br>
+<b>Date:</b>{{ datas.creationTime | date : 'yyyy-MM-dd H:mm' }}
+
+
+
+<form [formGroup]='person'>
+
+    <h1>Create TodoItem</h1>
+    <div class="form-group">
+
+      <input type="number" id="{{datas.id}}" value="{{datas.id}}" name="id" [formControl]="person.get('id')" class="form-control" placeholder="ID">
+
+      <label>Enter Name:</label>
+      <input type="text" value="{{datas.name}}" name="name" [formControl]="person.get('name')" class="form-control" placeholder="Enter name">
+    
+      <label>Is it completed:</label>
+      <input value="true" disabled name="isComplete" [formControl]="person.get('isComplete')" class="form-control" placeholder="True/False">
+    </div>
+    
+    <button type="submit" 
+              class="btn btn-block btn-primary" 
+              (click)="submitForm()">EDIT</button>
+    
+    </form>

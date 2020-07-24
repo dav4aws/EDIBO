@@ -49,10 +49,13 @@ namespace FirstAngularDotNet.Controllers
         {
             if (id != todoItem.Id)
             {
+                Console.WriteLine($"Something Wring with {id}");
                 return BadRequest();
             }
 
+            Console.WriteLine($"Trying to update item {id} at {DateTime.Now}");
             _context.Entry(todoItem).State = EntityState.Modified;
+            Console.WriteLine($"Updated Item {id} at {DateTime.Now}");
 
             try
             {
@@ -79,8 +82,11 @@ namespace FirstAngularDotNet.Controllers
         [HttpPost]
         public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem todoItem)
         {
+            todoItem.CreationTime = DateTime.Now;
+
             _context.TodoItems.Add(todoItem);
             await _context.SaveChangesAsync();
+            Console.WriteLine($"Post created at: {DateTime.Now}");
 
             return CreatedAtAction("GetTodoItem", new { id = todoItem.Id }, todoItem);
         }
