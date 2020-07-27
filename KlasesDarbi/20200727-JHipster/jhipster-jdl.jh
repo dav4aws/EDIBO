@@ -1,0 +1,39 @@
+entity Post{
+	title String required,
+    content TextBlob required
+}
+
+entity Blog{
+	name String required,
+    handle String required
+}
+
+entity User{
+	name String required,
+    username String required,
+    email Email required,
+    password Password required,
+    date StartDate required,
+    avatar Image,
+    birth BirthDate,
+    
+    
+}
+
+entity Tag{
+	name String required
+}
+relationship OneToOne{
+	Post to Blog
+}
+
+relationship OneToOne{
+	Blog to User
+}
+
+relationship OneToOne{
+	Post to Tag
+}
+
+
+
