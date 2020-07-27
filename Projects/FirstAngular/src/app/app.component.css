@@ -7,13 +7,15 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+
+
   .content {
     display: flex;
-    margin: 82px auto 32px;
-    padding: 0 16px;
-    max-width: 960px;
+    min-height: 100%;
+    padding: 80px 16px;
     flex-direction: column;
-    align-items: center;
+    background-image: url("https://wallpaperplay.com/walls/full/c/5/3/116941.jpg");
+    background-attachment: fixed;
   }
 
   svg.material-icons {

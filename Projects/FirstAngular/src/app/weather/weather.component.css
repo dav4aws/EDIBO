@@ -1,6 +1,7 @@
 table {
   margin: 0 auto;
   width: 50%;
+  background-color: white;
 }
 h1, h2{
   text-align: center;

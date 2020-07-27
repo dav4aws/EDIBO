@@ -11,10 +11,10 @@
     <h1>Create TodoItem</h1>
     <div class="form-group">
 
-      <input type="number" id="{{datas.id}}" value="{{datas.id}}" name="id" [formControl]="person.get('id')" class="form-control" placeholder="ID">
+      <input type="number" id="{{datas.id}}" value="{{datas.id}}" name="{{datas.id}}" [formControl]="person.get('id')" class="form-control" placeholder="ID">
 
       <label>Enter Name:</label>
-      <input type="text" value="{{datas.name}}" name="name" [formControl]="person.get('name')" class="form-control" placeholder="Enter name">
+      <input type="text" value="{{datas.name}}" name="{{datas.name}}" [formControl]="person.get('name')" class="form-control" placeholder="Enter name">
     
       <label>Is it completed:</label>
       <input value="true" disabled name="isComplete" [formControl]="person.get('isComplete')" class="form-control" placeholder="True/False">
@@ -23,5 +23,4 @@
     <button type="submit" 
               class="btn btn-block btn-primary" 
               (click)="submitForm()">EDIT</button>
-    
     </form>

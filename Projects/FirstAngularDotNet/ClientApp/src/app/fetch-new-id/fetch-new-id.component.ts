@@ -1,6 +1,6 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { DatePipe } from '@angular/common';
+import { DatePipe, DeprecatedDatePipe } from '@angular/common';
 import {ActivatedRoute} from '@angular/router';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 
@@ -19,8 +19,9 @@ export class FetchNewIdComponent{
   person = new FormGroup({
     id: new FormControl(),
     name: new FormControl(),
-    isComplete: new FormControl(true),
+    isComplete: new FormControl(false),
   });
+
   
   constructor(private http: HttpClient, @Inject('BASE_URL') baseUrl: string, private route: ActivatedRoute) {
     http.get<FetchData[]>(baseUrl + 'api/TodoItems/' + this.route.snapshot.paramMap.get('id')).subscribe(result => {
@@ -29,11 +30,15 @@ export class FetchNewIdComponent{
   }
 
 
-  submitForm() { 
+  submitForm() {
     this.http.put('http://localhost:5000/api/TodoItems/' + this.route.snapshot.paramMap.get('id'), this.person.value).subscribe(
       (response) => console.log(response),
       (error) => console.log(error)
     )
+
+    setTimeout(function() {
+      document.location.reload(true);
+    }, 1000);
 
     // localStorage.setItem('person', JSON.stringify(this.person.value))
   }
@@ -47,4 +52,5 @@ interface FetchData{
   name: string;
   isComplete: string;
   creationTime: DatePipe;
+  updateTime: DatePipe;
 }

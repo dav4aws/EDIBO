@@ -1,9 +1,10 @@
-<span style="">
+<span style="height: 60px; line-height: 60px;">
     Welcome, {{name}}
-    Datums: {{date | date : 'yyyy-MM-dd H:m:s'}}
+    Datums: {{ date | date : 'yyyy-MM-dd HH:mm' }}
 </span>
+
     <button
-style="width: 100px; float:right;margin-left:10px;"
+style="width: 100px; float:right;margin-left:10px;margin-top: 10px;"
 type="submit"
 class="btn btn-block btn-danger"
 (click)="logoutForm()">

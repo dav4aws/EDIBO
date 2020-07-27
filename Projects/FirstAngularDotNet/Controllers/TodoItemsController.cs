@@ -49,7 +49,7 @@ namespace FirstAngularDotNet.Controllers
         {
             if (id != todoItem.Id)
             {
-                Console.WriteLine($"Something Wring with {id}");
+                Console.WriteLine($"Something Wrong with {id}");
                 return BadRequest();
             }
 
