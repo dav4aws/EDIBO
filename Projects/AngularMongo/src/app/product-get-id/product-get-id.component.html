@@ -1,0 +1,25 @@
+<div class="card">
+    <div class="card-body">
+
+        <div class="form-group">
+            <label class="col-md-4">Product Name</label>
+            <label class="col-md4">{{product.ProductName}}</label>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-4">Product Description</label>
+            <label class="col-md4">{{product.ProductDescription}}</label>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-4">Product Price</label>
+            <label class="col-md4">{{product.ProductPrice}}</label>
+        </div>
+
+        <div class="form-group">
+            <a style="margin-right:10px;" [routerLink]="['/edit', product._id]" class="btn btn-primary">Edit</a>
+            <a (click) = "deleteProduct(product._id)" class="btn btn-danger">Delete</a>
+        </div>
+        
+    </div>
+  </div>

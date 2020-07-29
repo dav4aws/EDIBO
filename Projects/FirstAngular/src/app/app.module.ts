@@ -11,6 +11,7 @@ import { GuisComponent } from './guis/guis.component';
 import { ProfileService } from './profile.service';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
 import {MatSliderModule} from '@angular/material/slider';
 import {MatDividerModule} from '@angular/material/divider';
@@ -33,6 +34,7 @@ import{CurrencyModule} from './currency/currency.module'
 import { WeatherModule } from './weather/weather.module';
 import { LoginComponent } from './login/login.component';
 import { GreetComponent } from './greet/greet.component';
+import { DbDataComponent } from './db-data/db-data.component';
 
 
 
@@ -48,6 +50,7 @@ import { GreetComponent } from './greet/greet.component';
     SpinnerComponent,
     LoginComponent,
     GreetComponent,
+    DbDataComponent,
   ],
   imports: [
     BrowserModule,
@@ -68,7 +71,8 @@ import { GreetComponent } from './greet/greet.component';
     MatRadioModule,
     MatDialogModule,
     CurrencyModule,
-    WeatherModule
+    WeatherModule,
+    HttpClientModule
   ],
   providers: [
     ProfileService

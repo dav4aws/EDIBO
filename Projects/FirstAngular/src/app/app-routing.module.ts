@@ -7,6 +7,7 @@ import {BildesComponent } from './bildes/bildes.component';
 import  {SpinnerComponent} from './spinner/spinner.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { WeatherComponent } from './weather/weather.component';
+import { DbDataComponent } from './db-data/db-data.component';
 
 
 const routes: Routes = [
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path: 'bildes', component: BildesComponent},
   {path: 'spinner', component: SpinnerComponent},
   {path: 'cur', component:CurrencyComponent},
-  {path: 'weather', component:WeatherComponent}
+  {path: 'weather', component:WeatherComponent},
+  {path: 'db-data', component:DbDataComponent}
 ];
 
 @NgModule({
