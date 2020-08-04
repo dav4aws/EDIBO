@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KQxjJekWYVVzk8m6i46lMM6zVUBiACr0yICSddGTK++DIRVOWNos95ob9ooyfbWkWEHxm30g7c6J4sgZ03i9nw==",
+  "dgSpecHash": "nUKoRuakj1ELgTj82ebIUA6tH7w1fI28IzewAh4k7bL1bWCn46q6UdaWDBPksxKrIjDZwEPwhHb8Nku6WNT3Pg==",
   "success": true,
-  "projectFilePath": "/home/user/Desktop/EDIBO/Projects/DotNetMVC/DotNetMVC.csproj",
+  "projectFilePath": "/home/user/EDIBO/Projects/DotNetMVC/DotNetMVC.csproj",
   "expectedPackageFiles": [
     "/home/user/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.aspnetcore.razor/2.2.0/microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
