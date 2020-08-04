@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## SETUP
+
+**Install Angular node_modules
+
+Install npm install ng2-slim-loading-bar --save
+
+
+Setup Mongo Shell
+
+export PATH="your-dir:$PATH"
+
+Start server.js by "node server.js"**
+
